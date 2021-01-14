@@ -38,6 +38,6 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.YOURTOKEN }}
-          file: ./artifact/deepin-wine-wechat/*
+          file: ./artifact/edrawmax-cn/*
           tag: ${{ github.ref }}
           file_glob: true
